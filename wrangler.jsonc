@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pseo-atro",
+  "compatibility_date": "2026-08-09",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "upload": {
+    "exclude": [
+      ".git",
+      ".gitignore",
+      ".wrangler",
+      "node_modules",
+      "README.md",
+      "wrangler.jsonc"
+    ]
+  }
+}
