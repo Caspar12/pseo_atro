@@ -1,5 +1,0 @@
-
-User-agent: *
-Allow: /
-
-Sitemap: https://vpn-tutorial.pages.dev/sitemap-index.xml
